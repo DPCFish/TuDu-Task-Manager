@@ -54,8 +54,7 @@ namespace TuDu
             this.tableLayoutPanel.Controls.Add(this.textBoxDescription, 1, 4);
             this.tableLayoutPanel.Controls.Add(this.okButton, 1, 5);
             this.tableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel.Location = new System.Drawing.Point(14, 12);
-            this.tableLayoutPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel.Location = new System.Drawing.Point(9, 8);
             this.tableLayoutPanel.Name = "tableLayoutPanel";
             this.tableLayoutPanel.RowCount = 6;
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
@@ -64,18 +63,17 @@ namespace TuDu
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel.Size = new System.Drawing.Size(624, 368);
+            this.tableLayoutPanel.Size = new System.Drawing.Size(417, 245);
             this.tableLayoutPanel.TabIndex = 0;
             // 
             // logoPictureBox
             // 
             this.logoPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.logoPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("logoPictureBox.Image")));
-            this.logoPictureBox.Location = new System.Drawing.Point(4, 4);
-            this.logoPictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.logoPictureBox.Location = new System.Drawing.Point(3, 3);
             this.logoPictureBox.Name = "logoPictureBox";
             this.tableLayoutPanel.SetRowSpan(this.logoPictureBox, 6);
-            this.logoPictureBox.Size = new System.Drawing.Size(197, 360);
+            this.logoPictureBox.Size = new System.Drawing.Size(131, 239);
             this.logoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.logoPictureBox.TabIndex = 12;
             this.logoPictureBox.TabStop = false;
@@ -83,11 +81,11 @@ namespace TuDu
             // labelProductName
             // 
             this.labelProductName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelProductName.Location = new System.Drawing.Point(214, 0);
-            this.labelProductName.Margin = new System.Windows.Forms.Padding(9, 0, 4, 0);
-            this.labelProductName.MaximumSize = new System.Drawing.Size(0, 24);
+            this.labelProductName.Location = new System.Drawing.Point(143, 0);
+            this.labelProductName.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
+            this.labelProductName.MaximumSize = new System.Drawing.Size(0, 16);
             this.labelProductName.Name = "labelProductName";
-            this.labelProductName.Size = new System.Drawing.Size(406, 24);
+            this.labelProductName.Size = new System.Drawing.Size(271, 16);
             this.labelProductName.TabIndex = 19;
             this.labelProductName.Text = "产品名称    TuDu Task Manager\r\n";
             this.labelProductName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -96,11 +94,11 @@ namespace TuDu
             // labelVersion
             // 
             this.labelVersion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelVersion.Location = new System.Drawing.Point(214, 36);
-            this.labelVersion.Margin = new System.Windows.Forms.Padding(9, 0, 4, 0);
-            this.labelVersion.MaximumSize = new System.Drawing.Size(0, 24);
+            this.labelVersion.Location = new System.Drawing.Point(143, 24);
+            this.labelVersion.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
+            this.labelVersion.MaximumSize = new System.Drawing.Size(0, 16);
             this.labelVersion.Name = "labelVersion";
-            this.labelVersion.Size = new System.Drawing.Size(406, 24);
+            this.labelVersion.Size = new System.Drawing.Size(271, 16);
             this.labelVersion.TabIndex = 0;
             this.labelVersion.Text = "版本            Beta v0.1\r\n";
             this.labelVersion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -108,51 +106,51 @@ namespace TuDu
             // labelCopyright
             // 
             this.labelCopyright.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelCopyright.Location = new System.Drawing.Point(214, 72);
-            this.labelCopyright.Margin = new System.Windows.Forms.Padding(9, 0, 4, 0);
-            this.labelCopyright.MaximumSize = new System.Drawing.Size(0, 24);
+            this.labelCopyright.Location = new System.Drawing.Point(143, 48);
+            this.labelCopyright.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
+            this.labelCopyright.MaximumSize = new System.Drawing.Size(0, 16);
             this.labelCopyright.Name = "labelCopyright";
-            this.labelCopyright.Size = new System.Drawing.Size(406, 24);
+            this.labelCopyright.Size = new System.Drawing.Size(271, 16);
             this.labelCopyright.TabIndex = 21;
-            this.labelCopyright.Text = "版权   于泽沛 Designed for 高级实用程序设计\r\n";
+            this.labelCopyright.Text = "版权   dpcfish Designed for 高级实用程序设计\r\n";
             this.labelCopyright.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.labelCopyright.Click += new System.EventHandler(this.labelCopyright_Click);
             // 
             // labelCompanyName
             // 
             this.labelCompanyName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelCompanyName.Location = new System.Drawing.Point(214, 108);
-            this.labelCompanyName.Margin = new System.Windows.Forms.Padding(9, 0, 4, 0);
-            this.labelCompanyName.MaximumSize = new System.Drawing.Size(0, 24);
+            this.labelCompanyName.Location = new System.Drawing.Point(143, 72);
+            this.labelCompanyName.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
+            this.labelCompanyName.MaximumSize = new System.Drawing.Size(0, 16);
             this.labelCompanyName.Name = "labelCompanyName";
-            this.labelCompanyName.Size = new System.Drawing.Size(406, 24);
+            this.labelCompanyName.Size = new System.Drawing.Size(271, 16);
             this.labelCompanyName.TabIndex = 22;
-            this.labelCompanyName.Text = "公司名称         DPCFish";
+            this.labelCompanyName.Text = "公司名称         UPC";
             this.labelCompanyName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // textBoxDescription
             // 
             this.textBoxDescription.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxDescription.Location = new System.Drawing.Point(214, 148);
-            this.textBoxDescription.Margin = new System.Windows.Forms.Padding(9, 4, 4, 4);
+            this.textBoxDescription.Location = new System.Drawing.Point(143, 99);
+            this.textBoxDescription.Margin = new System.Windows.Forms.Padding(6, 3, 3, 3);
             this.textBoxDescription.Multiline = true;
             this.textBoxDescription.Name = "textBoxDescription";
             this.textBoxDescription.ReadOnly = true;
             this.textBoxDescription.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBoxDescription.Size = new System.Drawing.Size(406, 176);
+            this.textBoxDescription.Size = new System.Drawing.Size(271, 116);
             this.textBoxDescription.TabIndex = 23;
             this.textBoxDescription.TabStop = false;
-            this.textBoxDescription.Text = "说明\r\n*****************************************\r\n高级实用程序设计作业 by 于泽沛 S20070026\r\n自己需要一" +
-    "个待办清单，故制作了这个小软件\r\n使用SQLite数据库,保存在我的文档目录下\r\n如不再使用，可手动删除数据库文件\r\n*********************" +
-    "********************";
+            this.textBoxDescription.Text = "说明\r\n*****************************************\r\n高级实用程序设计作业 by DPCFish@UPC\r\n自己需要一个待" +
+    "办清单，故制作了这个小软件\r\n使用SQLite数据库,保存在我的文档目录下\r\n如不再使用，可手动删除数据库文件\r\n***********************" +
+    "******************";
             // 
             // okButton
             // 
             this.okButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.okButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.okButton.Location = new System.Drawing.Point(508, 332);
-            this.okButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.okButton.Location = new System.Drawing.Point(339, 221);
             this.okButton.Name = "okButton";
-            this.okButton.Size = new System.Drawing.Size(112, 32);
+            this.okButton.Size = new System.Drawing.Size(75, 21);
             this.okButton.TabIndex = 24;
             this.okButton.Text = "确定(&O)";
             this.okButton.Click += new System.EventHandler(this.okButton_Click);
@@ -160,16 +158,15 @@ namespace TuDu
             // aboutBox1
             // 
             this.AcceptButton = this.okButton;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(652, 392);
+            this.ClientSize = new System.Drawing.Size(435, 261);
             this.Controls.Add(this.tableLayoutPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "aboutBox1";
-            this.Padding = new System.Windows.Forms.Padding(14, 12, 14, 12);
+            this.Padding = new System.Windows.Forms.Padding(9, 8, 9, 8);
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
